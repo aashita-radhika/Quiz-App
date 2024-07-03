@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background: url('backhround.jpg') center;
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+#box{
+    width: 50%;
+    box-shadow: 6px 7px 5px grey;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+}
+.row{
+    text-align: left;
+    width: 95%;
+    height: 50px;
+    background-color: rgb(91, 198, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid rgb(128, 127, 127);
+    display: flex;
+    align-items: center;
+}
+.row label{
+    padding: 10px;
+}
+.row:hover{
+    background-color: rgb(53, 184, 255);
+}
+.row:active{
+    background-color: rgb(91, 198, 255);
+}
+.sub button{
+    text-align: center;
+    width: 95%;
+    height: 50px;
+    background-color: rgb(75, 113, 211);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(185, 185, 185);
+    color: white;
+    font-size: 18px;
+}
+.sub button:hover{
+    background-color: rgb(55, 98, 207);
+}
+.sub button:active{
+    background-color: rgb(75, 113, 211);
+}
+
+@media (max-width: 1000px){
+    #box{
+        width: 70%;
+        font-size: small;
+    }
+
+}
