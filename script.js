@@ -3,8 +3,8 @@ const questions = [
         'que' : "What's my favorite color?",
         'a' : 'Yellow',
         'b' : 'Lilac',
-        'c' : 'Navy Blue',
-        'd' : 'Blood Red',
+        'c' : 'Sky Blue',
+        'd' : 'Red',
         'correct':'d'
     },
     {
@@ -32,11 +32,11 @@ const questions = [
         'correct':'b'
     },
     {
-        'que' : 'Which book in the following is my favorite?',
-        'a' : 'Mine till Midnight',
-        'b' : 'The Viscount Who Loved Me',
-        'c' : 'Devil in Winter',
-        'd' : 'The True Love Experiment',
+        'que' : 'Which book series in the following is my favorite?',
+        'a' : 'Powerless',
+        'b' : 'A Court Of Thornes and Roses',
+        'c' : 'Six of Crows',
+        'd' : 'Once Upon A Broken Heart',
         'correct':'c'
     }
 ]
